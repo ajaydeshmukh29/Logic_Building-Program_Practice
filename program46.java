@@ -1,0 +1,77 @@
+
+
+import java.util.Scanner;
+
+class NumberX
+{
+  public void DisplyaFactors(int iNo)
+  {
+    int iCnt = 0;
+
+    for(iCnt = 1; iCnt < iNo; iCnt++)
+    {
+      if((iNo % iCnt) == 0)
+      {
+        System.out.println(iCnt);
+      }
+    }
+  }
+}
+
+
+class program46
+
+{
+
+  public static void main(String A[])
+  {
+    Scanner sobj = new Scanner(System.in);
+
+    int iValue = 0;
+
+    System.out.println("Enter Number : ");
+    iValue = sobj.nextInt();
+
+    NumberX nobj = new NumberX();
+
+    nobj.DisplyaFactors(iValue);
+   
+
+  }
+}
+
+// Time Complesity : O(N)
+// Where N >= 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//type same code samjun gheychya  , n bhagta code karayacha , 
