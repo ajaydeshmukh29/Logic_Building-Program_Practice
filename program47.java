@@ -8,7 +8,7 @@ class NumberX
   {
     int iCnt = 0;
 
-    for(iCnt = 1; iCnt < iNo; iCnt++)
+    for(iCnt = 1; iCnt <= (iNo / 2); iCnt++)
     {
       if((iNo % iCnt) == 0)
       {
@@ -19,7 +19,7 @@ class NumberX
 }
 
 
-class program46
+class program47
 
 {
 
@@ -40,5 +40,38 @@ class program46
   }
 }
 
-// Time Complesity : O(N)
+
+// Time Complesity : O(N/2)
 // Where N >= 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//type same code samjun gheychya  , n bhagta code karayacha , variation karaycha
