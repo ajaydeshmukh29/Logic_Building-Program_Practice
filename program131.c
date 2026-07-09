@@ -34,7 +34,7 @@ int main()
     printf("Enter the number of elements : \n");
     scanf("%d",&iLength);
 
-    Brr = (int *)malloc(sizeof(int) * iLength);
+    Brr = (int *)malloc(sizeof(int) * iLength);    // memory allocated
 
     printf("Enter the elements : \n");
 
@@ -58,6 +58,5 @@ int main()
     }
     
     free(Brr);
-
     return 0;
 }
