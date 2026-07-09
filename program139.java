@@ -4,7 +4,7 @@ class program139
 {
   public static void main(String A[])
   {
-    Scanner sobj = new Scanner(System.in);
+    Scanner sobj = new Scanner(System.in); // memory allocated for an Array
 
     int Arr[] = {10,20,30,40,50};
 
