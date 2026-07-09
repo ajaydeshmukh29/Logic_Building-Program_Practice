@@ -6,7 +6,7 @@ class program139
   {
     Scanner sobj = new Scanner(System.in); // memory allocated for an Array
 
-    int Arr[] = {10,20,30,40,50};
+    int Arr[] = {10,20,30,40,50};    // Array is Initialized by List method
 
     for(int iCnt = 0; iCnt < Arr.length; iCnt++)
     {
