@@ -1,158 +1,57 @@
-// /*
-//   iRow = 4
-//   icol = 4
-
-//   $ $ $ $
-//   # # # #
-//   $ $ $ $
-//   # # # #
-
-// */
-
-// import java.util.*;
-
-// class Pattern
-// {
-//   public void Display(int iRow, int iCol)
-//   {
-//     int i = 0, j = 0;
-//     int k = 0;
-//     for(i = 1; i <= iRow; i++)
-//     {
-//       for(j = 1; j <= iCol; j++)
-//       {
-//         k = i % 2;
-//         System.out.print(k+"#\t");
-
-//         k = (i != 0); // try not uisng if else
-//       }
-//       System.out.println();
-//     }
-//     }
-//   }
-// public class program202
-// {
-//   public static void main(String A[])
-//   {
-//     Scanner sobj = new Scanner(System.in);
-//     int iValue1 = 0, iValue2 = 0;
-    
-//     System.out.println("Enter number of Row : ");
-//     iValue1 = sobj.nextInt();
-
-//     System.out.println("Enter number of column : ");
-//     iValue2 = sobj.nextInt();
-
-//     Pattern pobj = new Pattern();
-
-//     pobj.Display(iValue1, iValue2);
-
-//   }
-  
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// second approach
-// |
-// |
-// | 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-  iRow = 4
-  icol = 4
-
-  $ $ $ $
-  # # # #
-  $ $ $ $
-  # # # #
-
-*/
+///////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Program : Print alternate rows of '$' and '#' without using if-else.
+//
+//  Input :
+//  iRow = 4
+//  iCol = 4
+//
+//  Output :
+//
+//  $   $   $   $
+//  #   #   #   #
+//  $   $   $   $
+//  #   #   #   #
+//
+///////////////////////////////////////////////////////////////////////////////////////////
 
 import java.util.*;
 
 class Pattern
 {
-  public void Display(int iRow, int iCol)
-  {
-    int i = 0, j = 0;
-    int k = 0;
-
-    char Arr[] = {'#','$'};
-
-    for(i = 1; i <= iRow; i++)
+    public void Display(int iRow, int iCol)
     {
-      for(j = 1; j <= iCol; j++)
-      {
-       System.out.print(Arr[i % 2]+"\t");
-      }
-      System.out.println();
+        int i = 0, j = 0;
+
+        char Arr[] = {'#', '$'};
+
+        for(i = 1; i <= iRow; i++)
+        {
+            for(j = 1; j <= iCol; j++)
+            {
+                System.out.print(Arr[i % 2] + "\t");
+            }
+            System.out.println();
+        }
     }
-    
-    }
-  }
-public class program202
-{
-  public static void main(String A[])
-  {
-    Scanner sobj = new Scanner(System.in);
-    int iValue1 = 0, iValue2 = 0;
-    
-    System.out.println("Enter number of Row : ");
-    iValue1 = sobj.nextInt();
-
-    System.out.println("Enter number of column : ");
-    iValue2 = sobj.nextInt();
-
-    Pattern pobj = new Pattern();
-
-    pobj.Display(iValue1, iValue2);
-
-  }
-  
 }
 
+public class program202
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.print("Enter number of Rows : ");
+        int iValue1 = sobj.nextInt();
+
+        System.out.print("Enter number of Columns : ");
+        int iValue2 = sobj.nextInt();
+
+        Pattern pobj = new Pattern();
+
+        pobj.Display(iValue1, iValue2);
+
+        sobj.close();
+    }
+}
