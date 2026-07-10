@@ -1,3 +1,10 @@
+///////////////////////////////////////////// 
+//
+//  Application used Function and Array
+//
+/////////////////////////////////////////////
+
+
 #include<stdio.h>
 
 void Display(int *iPtr)
@@ -16,7 +23,6 @@ void Display(int *iPtr)
 int main()
 {
   int Arr[5] = {10,20,30,40,50};
-
 
   Display(Arr);
 
