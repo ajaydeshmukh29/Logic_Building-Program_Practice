@@ -1,3 +1,9 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+//  Application of Array by using member by member initialization technique
+//
+////////////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 
 void Display(int Arr[], int iSize)  
@@ -16,7 +22,7 @@ int main()
 
   int Brr[iLenght];
 
-  Brr[0] = 10;
+  Brr[0] = 10;    // member by member initiliazed array
   Brr[1] = 20;
   Brr[2] = 30;
   Brr[3] = 40;
