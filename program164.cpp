@@ -2,36 +2,49 @@
 using namespace std;
 
 #pragma pack(1)
+
 class ArrayX
 {
-    private:
-        int *Arr;
-        int iSize;
+private:
+    int *Arr;      // Pointer to dynamically allocated array
+    int iSize;     // Size of the array
 
-    public:
-        ArrayX(int X)
-        {
-            iSize = X;                 
-            Arr = new int[iSize];       
-        }
+public:
+    // Constructor
+    ArrayX(int X)
+    {
+        iSize = X;
+        Arr = new int[iSize];
+    }
 
-        ~ArrayX()
-        {
-            delete []Arr;       
-        }
-}; 
+    // Destructor
+    ~ArrayX()
+    {
+        delete []Arr;
+    }
+};
 
 int main()
-{          
+{
+    // Dynamic object creation
     ArrayX *aobj1 = new ArrayX(5);
-    
-    // Logic (Function call)
-    cout<<aobj1->iSize<<"\n";   // Error
 
-    aobj1->iSize = 0;       // Error
+    // ============================================================
+    // Demonstration of Encapsulation (Data Hiding)
+    // Private members cannot be accessed directly outside the class.
+    // The following statements will generate compile-time errors.
+    // ============================================================
 
-    aobj1->Arr = NULL;      // Error
+    // Error: 'iSize' is a private data member of class ArrayX
+    // cout << aobj1->iSize << endl;
 
+    // Error: Private data members cannot be modified directly
+    // aobj1->iSize = 0;
+
+    // Error: 'Arr' is a private data member of class ArrayX
+    // aobj1->Arr = NULL;
+
+    // Free dynamically allocated object
     delete aobj1;
 
     return 0;
