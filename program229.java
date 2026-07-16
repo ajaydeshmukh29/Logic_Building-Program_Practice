@@ -2,14 +2,13 @@
     iRow = 6
     iCol = 6
     
-
     *
     *   *
     *       *
     *          *
     *               *
     *   *   *   *   *   *
-
+    
 */
 
 import java.util.*;
