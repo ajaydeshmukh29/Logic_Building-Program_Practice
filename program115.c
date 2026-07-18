@@ -1,5 +1,11 @@
-#include<stdio.h>
+/////////////////////////////////////////////////////////////
+//
+//  Printing the array using for loop 
+//  ERROR : error is occures at array declairation
+//
+//////////////////////////////////////////////////////////
 
+#include<stdio.h>
 void Display(int Arr[], int iSize)  
 {
   int iCnt = 0;
