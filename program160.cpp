@@ -1,3 +1,5 @@
+// Class created
+
 #include<iostream>
 using namespace std;
 
