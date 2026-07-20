@@ -15,6 +15,7 @@ bool LinearSearch(int Arr[], int iSize, int iNo)
         }
     }
 
+    
     if(iCnt < iSize)
     {
         return true;
