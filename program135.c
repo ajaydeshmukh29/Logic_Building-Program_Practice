@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 // Time complexity O(N)
 int Maximum(int Arr[], int iSize)
 {
