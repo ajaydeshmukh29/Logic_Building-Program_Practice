@@ -1,8 +1,13 @@
+//////////////////////////////////////////////////////////////////////////////////////
+//
+//    Accept element and check whether that element is present or not in that array 
+//    Time Complexity : O(N)
+//////////////////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
 
-// Time complexity O(N)
 bool LinearSearch(int Arr[], int iSize, int iNo)
 {
     int iCnt = 0;
@@ -14,7 +19,6 @@ bool LinearSearch(int Arr[], int iSize, int iNo)
             break;
         }
     }
-
     
     if(iCnt < iSize)
     {
