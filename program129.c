@@ -1,3 +1,9 @@
+//////////////////////////////////////////////////////////////////
+//
+//    Used Linear Search operation in Array to find element
+//
+////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
@@ -15,7 +21,6 @@ bool LinearSearch(int Arr[], int iSize)
             break;
         }
     }
-
     return bFlag;
 }
 
