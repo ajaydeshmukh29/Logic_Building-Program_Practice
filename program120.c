@@ -1,3 +1,16 @@
+//////////////////////////////////////////////////////////////////////////////////
+//
+//  Take elements from user and allocate the memroy for that element at runtime
+//  use that allocated memroy after use delete of free that memroy.
+//
+//  Steps :  Step 1 : Accept the number elements 
+//  Step 2 : Allocate the memory  
+//  Step 3 : Accept the value form user 
+//  Step 4 : Use the memory
+//  Step 5 : Deallocate the memory
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 
