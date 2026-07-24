@@ -1,3 +1,9 @@
+///////////////////////////////////////////////////////
+//
+//  Array is initialize outside the main function
+//
+////////////////////////////////////////////////////
+
 #include<stdio.h>
 
 void Display(int Arr[])  
@@ -12,7 +18,6 @@ void Display(int Arr[])
 int main()
 {
   int Brr[5] = {10,20,30,40,50};
-
 
   Display(Brr);
 
