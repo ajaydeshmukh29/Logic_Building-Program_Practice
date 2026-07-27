@@ -1,3 +1,9 @@
+//////////////////////////////////////////////////////////////////////////////////
+//
+//  Creation of array inside class. and parameterized constructor is created
+//
+/////////////////////////////////////////////////////////////////////////////////
+
 #include<iostream>
 using namespace std;
 
@@ -16,9 +22,9 @@ class ArrayX
 
 int main()
 {
-  ArrayX aobj;    // Error
+  ArrayX aobj;   // Error
 
-  cout<<sizeof(aobj)<<endl;   // 12 bytes
+  cout<<sizeof(aobj)<<endl;   // 12 byte
 
   return 0;
 }
