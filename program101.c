@@ -17,6 +17,5 @@ int main()
   {
     printf("%d\n",Arr[iCnt]);
   }
-
   return 0;
 }
