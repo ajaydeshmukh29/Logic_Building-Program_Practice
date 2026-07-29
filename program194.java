@@ -1,12 +1,10 @@
-/*   
+/*     Take the input from user Number of rows and number of columns and display below pattern  
     iRow = 4
     iCol = 4
-
     1   1   1   1 
     2   2   2   2
     3   3   3   3
     4   4   4   4
-
 */
 
 import java.util.*;
