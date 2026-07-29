@@ -1,3 +1,5 @@
+//  Practice on Digit Number Topic
+
 import java.util.*;
 
 class DigitX
