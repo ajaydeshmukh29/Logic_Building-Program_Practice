@@ -1,6 +1,8 @@
-/* pattern  : * * * * 
-              * * * *       */
-
+/*
+///////////  Patern Printing  /////////
+pattern  :    * * * * 
+              * * * *    
+*/
 
 import java.util.*;
 
