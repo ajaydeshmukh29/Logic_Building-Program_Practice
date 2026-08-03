@@ -5,7 +5,7 @@ class program171
     public static void Display(int iNo)
     {
         int iCnt = 0;
-
+        
         for(iCnt = 1; iCnt <= iNo; iCnt++)
         {
             System.out.print("*\t");
