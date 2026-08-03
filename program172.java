@@ -21,7 +21,7 @@ class program172
         Scanner sobj = new Scanner(System.in);
         int iValue = 0;
 
-        System.out.println("Enter the enumebr of elements : ");
+        System.out.println("Enter the numebr of elements : ");
         iValue = sobj.nextInt();
 
         Display(iValue);
