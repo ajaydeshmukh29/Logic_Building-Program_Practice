@@ -1,4 +1,4 @@
-//  Accept number of rows and column from user and prin the below pattern
+//  Accept number of rows and column from user and print the below pattern
 
 import java.util.*;
 
