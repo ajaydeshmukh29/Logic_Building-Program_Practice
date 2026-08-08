@@ -1,3 +1,5 @@
+//  Accept number of rows and column from user and prin the below pattern
+
 import java.util.*;
 
 public class program192
