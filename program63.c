@@ -1,5 +1,3 @@
-// Input : 5
-// Output : -5 -3 -1
 
 #include<stdio.h>
 
