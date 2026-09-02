@@ -1,3 +1,4 @@
+// Java program
 import java.util.Scanner;
 
 class NumberX
